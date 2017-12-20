@@ -1,6 +1,9 @@
-angular.module("dap", []) // Dont forget that empty array
-.controller('helloWorld', function($scope) {
-  $scope.helloWorld = function() {
-    console.log("you made your first controller! now dont forget it!");
-  };
-});
+// // scroll attached to nav links
+// $(function() {
+//   $('.js-nav a').click(function(e) {
+//     e.preventDefault();
+//     $('body, html').animate({
+//       scrollTop: $($.attr(this, 'href')).offset().top
+//     }, 750);
+//   });
+// });
